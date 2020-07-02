@@ -7,7 +7,7 @@ public class tabla_de_multiplicar {
         int contador = 0;
         int resultado = 1;
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Que factorial quieres calcular");
+        System.out.println("Dime un numero y te hago la tabla);
         int valor = entrada.nextInt();
         while (contador <= 10) {
             resultado = valor * contador;
